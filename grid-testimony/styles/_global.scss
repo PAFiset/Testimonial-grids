@@ -1,0 +1,40 @@
+html,
+body {
+  background-color: $Lightgrayishblue;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p{
+  color: $White;
+  margin: 0;
+
+  &.greyed{
+    color: $MidGray;
+  }
+
+  &.lightgreyed{
+    color:$Lightgray;
+  }
+
+  &.blacked{
+    color: black;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
